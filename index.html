@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Undangan Pernikahan | Andhika & Pablo</title>
+  <link rel="stylesheet" href="style.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display&family=Open+Sans&display=swap" rel="stylesheet">
+</head>
+<body>
+  <audio autoplay loop>
+<iframe width="0" height="0" src="https://www.youtube.com/embed/VIDEO_ID?autoplay=1&loop=1&playlist=VIDEO_ID" frameborder="0" allow="autoplay"></iframe>
+
+  </audio>
+
+  <div class="container">
+    <h1>Andhika & Pablo</h1>
+    <p class="subtitle">Mengundang Anda untuk merayakan hari bahagia kami</p>
+
+    <div class="tanggal-lokasi">
+      <p><strong>10 Februari 2026</strong></p>
+      <p>Hall stasiun Duri, Jakarta</p>
+      <a href="https://maps.app.goo.gl/pm9cFEdERY7e9XLC7" target="https://maps.app.goo.gl/EgCaVdnrX8nwsbje8">📍 Lihat Lokasi</a>
+    </div>
+
+    <hr/>
+
+    <section class="galeri">
+      <h2>Galeri Kami</h2>
+      <div class="galeri-grid">
+        <img src="images/pasangan1.jpg" alt="Foto 1" width="300">
+        <img src="images/pasangan2.jpg" alt="Foto 2" width="300">
+      </div>
+    </section>
+
+    <section class="qris">
+      <h2>Hadiah & Doa</h2>
+      <p>Berikan doa restu atau hadiah melalui QR Code di bawah ini</p>
+      <img src="images/qris.jpg" alt="QRIS Hadiah" />
+    </section>
+
+    <section class="rsvp">
+      <h2>Konfirmasi Kehadiran</h2>
+      <form id="rsvpForm">
+        <input type="text" name="nama" placeholder="Nama Anda" required>
+        <select name="kehadiran" required>
+          <option value="">Apakah Anda akan hadir?</option>
+          <option value="Hadir">Hadir</option>
+          <option value="Tidak Hadir">Tidak Hadir</option>
+        </select>
+        <button type="submit">Kirim</button>
+      </form>
+      <p id="rsvpResult"></p>
+    </section>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
